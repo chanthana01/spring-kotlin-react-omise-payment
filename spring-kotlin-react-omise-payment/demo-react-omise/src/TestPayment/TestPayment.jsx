@@ -4,7 +4,7 @@ const TestPayment = () => {
     useEffect(() => {
         const { OmiseCard } = window;
         OmiseCard.configure({
-            publicKey: "pkey_test_5oxck5cs1o151q73uqw"
+            publicKey: "<YOUR_PUBLIC_KEY>"
         });
 
         var button = document.querySelector("#checkoutButton");
